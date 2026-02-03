@@ -1,56 +1,132 @@
 Algorithm helps track cycling rides.
 
-AIMS: Store data, synthesise graphs for descriptive data, highlight trends, acts as a training log with qualitative data aswell. 
 
-Factors in cycling rides considered: 
-
-QUANTITATIVE DATA
-
-temperature 
-wind 
-diet 
-pace (km/h or MPH) 
-calories burnt (estimated by an app) 
-distance 
-start and end time (date) 
-duration of ride 
-breaks in ride 
-sleep 
-heart rate 
-elevation 
-ride type (training, rest, test ride (longest distances) ). 
-calorie intake (seperate daily log and ride log). 
-road quality 
-
-OTHER PIECES OF GARMIN DATA, E.G CADENCE. 
-
-
-QUALITATIVE DATA 
-
-percieved exertion 
-comfort (knee pain or neck pain) /10.
-reasons of performance (e.g sickness, supplements taken to improve perofrmance). 
-post workout soreness (seperate log).
-weather type (raining, windy, etc). 
-
-OTHER DESIGNS (not code focused, rather user interface). 
-Design of personal algorithm/app. 
-graph 
-step by step pop up (e.g 1. ride type, 2. distance 3, time and so on). 
-
-ALL FEATURES: 
-DATA TRACK 
-RIDE RATINGS
-ROUTE PREFERENCES 
-GRAPH 
-POP UPS 
-LOGS 
-EVERYTHING CAN BE RE-EDITED/CORRECT LATER 
-TREND LOGS (e.g speed and disrance increase by %) 
 
 NOTE TO SELF (creator): This could be a possible app for all atheletes to use if executed well. 
 
-EXTENSION TASKS (if main is done well and quickly): 
-reminder system 
-progress flightpath + maybe customisable flightpath. 
 
+progress flightpath + maybe customisable flightpath. (optional) 
+
+POST RIDE INSERTABLE DATA 
+
+
+Ride type
+
+Duration
+
+Distance
+
+Elevation gain
+
+Average heart rate
+
+Cadence (avg)
+
+Breaks taken
+
+Temperature (cool / mild / hot)
+
+Wind (none / moderate / strong)
+
+Road quality
+
+Weather
+
+Sleep last night (hours)
+
+Fueled during ride? (yes / no)
+
+Hydration level
+
+Estimated calories in
+
+Perceived exertion (RPE)
+
+Overall ride rating
+
+Pain score
+
+Pain location (if any)
+
+Post-ride soreness
+
+Did this ride make future training easier / neutral / harder?
+
+Context notes (optional)
+
+daily NON RIDE LOG 
+
+Sleep duration
+
+General soreness (0–10)
+
+Stress level (low / moderate / high)
+
+Body weight (optional)
+
+AUTO CALCULATED METRICS 
+
+7-day distance total
+
+28-day distance total
+
+7-day average RPE
+
+Pace vs HR trend
+
+Distance progression (%)
+
+AUTO FLAG CONCERNS 
+
+Pain >3/10 for 3 rides
+
+Rising RPE with flat performance
+
+Persistent soreness >48h
+
+Sleep deficit streak
+
+Compliance (planned vs completed)
+
+Notes
+
+FEATURES 
+
+Step-by-step entry flow
+
+Minimal required fields
+
+Optional collapsible fields
+
+Editable entries
+
+Graphs (time / distance / HR)
+
+RAAM LEVEL STATISTICS LATER ON
+
+Multi-day fatigue score
+
+Sleep deprivation tolerance
+
+Heat exposure index
+
+GI tolerance notes
+
+Pacing deviation log
+
+Crew / logistics notes
+
+DO NOT INCLUDE 
+
+Exact calorie burn estimates
+
+Daily readiness scores
+
+Performance prediction models
+
+ML-based training prescriptions
+
+Social comparison metrics
+
+
+RULE: all logging must take 4 mins max. 
